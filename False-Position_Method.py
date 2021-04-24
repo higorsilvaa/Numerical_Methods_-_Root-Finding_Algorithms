@@ -31,7 +31,7 @@ def false_position(a, b, t, lim): #Onde a e b delimitam o intervalo([a,b]), t é
 
     table['f(a)'], table['f(b)'] = table['f(a)'].apply(sinal), table['f(b)'].apply(sinal) 
     
-    print('Tabela de execuções (Bisseção)\n')
+    print('Tabela de execuções (Falsa Posição)\n')
     print(table, '\n')
          
     return x
